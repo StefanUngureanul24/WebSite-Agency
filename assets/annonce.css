@@ -1,0 +1,43 @@
+body {
+    background-color: #9370DB;
+}
+
+h1, h2 {
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E6E6FA;
+  }
+
+ ul li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #FF00FF;
+    color: white;
+  }
+
+  li:nth-last-child(-n+2) {
+    float: right;
+  }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #BA55D3;
+}
