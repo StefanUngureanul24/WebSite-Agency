@@ -14,7 +14,7 @@ h1, h2 {
 */
 
 nav {
-  height: 100px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,6 +73,10 @@ ul {
     height: 50px;
   }
 
+.nav-right-side img:hover {
+  filter: brightness(55%) blur(2px);
+}
+
  /*
   #nav li a {
     color: black;
@@ -91,4 +95,40 @@ footer {
     position: absolute;
     bottom: 0;
     background-color: #BA55D3;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-facebook, .fa-instagram, .fa-snapchat-ghost, .fa-youtube, .fa-twitter {
+  transform: scale(2);
+  font-size: 50px !important;
 }
