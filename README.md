@@ -1,5 +1,14 @@
 # Programmation Web 2 - L2S4 - 2020
 
+## Structure du projet
+Le projet en une page avec les sections suivantes:
+* Le **navbar** (*nav.php*) qui contient comme éléments: à gauche le nom de l'association en charge du site et à droite les buttons qui renvoient vers les sections différentes de la page et encore deux services: l'apparition du formulairea pour se connecter sur son compte (*se connecter*) et des liens vers la version en anglais et la version en allemand de la page (*langues*).
+* Un *slider* qui contient trois photos avec des endroits différents de Strasbourg.
+* La section **Événements** où l'utilisateur peut voir les événements déjà ajoutés ou ajouter lui-même un événement.
+* La section **Annonces** où l'utilisateur peut voir les annonces déjà ajoutés ou ajouter lui-même une annonce. 
+* La section **Renseignements pratiques**, où se trouve plusieurs lien vers des autres sites qui pourraient s'avérer utils pour les étudiants étrangéres.
+* Le **footer**, où il se trouve les logos avec plusieurs sites réseaux sociaux, qui sont censés de représenter la présence sur ces réseaux sociaux de l'association en charge du site.
+
 ## Utilisation du projet
 
 * Faire un "fork" du projet dans votre Gitlab universitaire ;

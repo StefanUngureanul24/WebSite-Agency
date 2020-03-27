@@ -1,0 +1,41 @@
+@media screen and (max-width: 800px) {
+    nav li:first-child a:hover {
+        background-color: #9370DB;
+    }
+    
+    nav li:first-child a {
+        font-size: 25px;
+    }
+    
+    nav li:not(:first-child) {
+        display: none;
+    }
+    nav .icon {
+        display: block;
+        float: right;
+    }
+    nav .icon:hover {
+        cursor: pointer;
+    }
+    
+    .resp li:not(:first-child) {
+        display: contents;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    table {
+        display: flex;
+        width: 100% !important;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .img-resp {
+        display: block;
+    }
+}
