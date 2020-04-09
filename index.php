@@ -6,6 +6,7 @@
     <meta name="description" content="AEE - annonces pour étudiants étrangers">
     <meta name="author" content="Stefan UNGUREANU">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/aees-icon.png" />
     
     <!-- Les fichiers CSS -->
     <link rel="stylesheet" type="text/css" href="assets/annonce.css">    
@@ -21,16 +22,16 @@
 </head>
 
 <body>
-    <?php include('assets/nav.php'); ?>
-    <?php include('assets/slider.php'); ?>
+    <?php include 'templates/nav.php';?>
+    <?php include 'assets/slider.php';?>
 	<hr>
-	<?php include('assets/section-even.php'); ?>
+	<?php include 'assets/section-even.php';?>
 	<hr>
-	<?php include('assets/section-annonces.php'); ?>
+	<?php include 'assets/section-annonces.php';?>
 	<hr>
-	<?php include('assets/section-rens.php'); ?>
+	<?php include 'assets/section-rens.php';?>
     <hr>
-    	<?php include('assets/footer.php'); ?>
+    <?php include 'templates/footer.php';?>
 	<hr>
 </body>
 </html>
