@@ -16,6 +16,7 @@ $(document).ready(function() {
   /* Fonction pour la touche qui affiche */  
   $("#button-event").click(function(){
     if ($(".table-form").css("display") == "none") {
+      
       /* On détérmine la date du système */
       var d = new Date();
       var mois = d.getMonth() + 1;
@@ -168,7 +169,6 @@ $(document).ready(function() {
     */
     $(".img-rens").mouseenter(function() {
       $(this).next().css("display", "block");
-      $(this).next().css("transition", )
     });
 
     $(".img-rens").mouseleave(function() {

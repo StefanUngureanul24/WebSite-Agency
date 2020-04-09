@@ -10,6 +10,7 @@
     nav li:not(:first-child) {
         display: none;
     }
+    
     nav .icon {
         display: block;
         float: right;
@@ -37,5 +38,13 @@
 
     .img-resp {
         display: block;
+    }
+
+    .drapeau {
+        display: none !important;
+    }
+
+    br {
+        display: none;
     }
 }
