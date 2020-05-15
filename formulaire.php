@@ -34,7 +34,7 @@
   </div>
 
   <div class="wrap wrap-inscription">
-    <form class="login-form" action="">
+    <form class="login-form" action="assets/inscription.php" method="post">
       <div class="form-header">
         <h3 class="lang" key="log">S'inscrire</h3>
       </div>
@@ -60,13 +60,13 @@
       </div>
     
       <div class="form-group">
-        <button key="log" id="inscrire" class="form-button lang" type="button">S'inscrire</button>
+        <button key="log" id="inscrire" class="form-button lang" type="submit">S'inscrire</button>
       </div>
     </form>
   </div>
 
   <div class="wrap wrap-connexion">
-    <form class="login-form" action="">
+    <form class="login-form" action="assets/connexion.php" method="post">
       <div class="form-header">
         <h3 class="lang" key="conn">Connexion</h3>
       </div>
@@ -82,7 +82,7 @@
       </div>
       
       <div class="form-group">
-        <button key="conn" id="connexion" class="form-button lang" type="button">Se connecter</button>
+        <button key="conn" id="connexion" class="form-button lang" type="submit">Se connecter</button>
       </div>
     </form>
   </div>
