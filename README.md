@@ -7,7 +7,7 @@
 * La section **Événements** où l'utilisateur peut voir les événements déjà ajoutés ou ajouter lui-même un événement.
 * La section **Annonces** où l'utilisateur peut voir les annonces déjà ajoutés ou ajouter lui-même une annonce. 
 * La section **Renseignements pratiques**, où se trouve plusieurs lien vers des autres sites qui pourraient s'avérer utils pour les étudiants étrangéres.
-* La section **Se connecter**, qui envoie l'utilisateur dans une autre page (à voir dessous)
+* La section **Inscription/Connexion**, qui envoie l'utilisateur dans une autre page (à voir au-dessous)
 * Le **footer**, où il se trouve les logos avec plusieurs sites réseaux sociaux, qui sont censés de représenter la présence sur ces réseaux sociaux de l'association en charge du site.
 
 ### La page pour la connexion / l'inscription sur site
