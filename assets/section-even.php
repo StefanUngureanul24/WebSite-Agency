@@ -1,15 +1,15 @@
 <div id="events">
-    <h1>Événements</h1>
-    <button id="button-event">Ajoutez un événement</button>
-    <button id="button-event" class="button-fermer">Fermez</button>
+    <h1 class="lang" key="evenms-title">Événements</h1>
+    <button class="lang" key="evenms-add" id="button-event">Ajoutez un événement</button>
+    <button key="evenms-close" id="button-event" class="button-fermer lang">Fermez</button>
 
     <table class="table1 table-form">
       <tr class="nohover">
-        <th>Nom d'événement</th>
-        <th>Lien</th>
-        <th>Jour d'événement</th>
-        <th>Heure</th>
-        <th>Lieu</th>
+        <th class="lang" key="evenms-name">Nom d'événement</th>
+        <th class="lang" key="evenms-link">Lien</th>
+        <th class="lang" key="evenms-day">Jour d'événement</th>
+        <th class="lang" key="evenms-time">Heure</th>
+        <th class="lang" key="evenms-place">Lieu</th>
       </tr>
       <tr>
         <td><input class="input-form" id="nom-ev" type="text" placeholder="Nom d'événement..."></td>
@@ -22,10 +22,10 @@
 
     <table id="table-form1" class="table1">
       <tr class="nohover">
-        <th>Nom d'événement</th>
-        <th>Jour d'événement</th>
-        <th>Heure</th>
-        <th>Lieu</th>
+        <th class="lang" key="evenms-name">Nom d'événement</th>
+        <th class="lang" key="evenms-day">Jour d'événement</th>
+        <th class="lang" key="evenms-time">Heure</th>
+        <th class="lang" key="evenms-place">Lieu</th>
       </tr>
       <tr>
         <td><a href="#">The Green</a></td>

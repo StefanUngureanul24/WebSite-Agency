@@ -24,7 +24,6 @@ $(document).ready(function() {
       var ajd = d.getFullYear() + '-' + (mois<10 ? '0' : '') + mois + '-' + (jour<10 ? '0' : '') + jour;
       
       $(".table-form").fadeIn(500);
-      $("#button-event").html("Ajoutez");
       $(".button-fermer").fadeIn(500);
       $("#date-ev").attr("min", ajd);
     }
@@ -76,7 +75,6 @@ $(document).ready(function() {
     $(".button-fermer").click(function(){
       $(".table-form").fadeOut(500);
       $(".button-fermer").fadeOut(10);
-      $("#button-event").html("Ajoutez un événement");
     });
 
     /* La fonction qui détérmine le jour de la semaine à partir d'un jour calendrier */
@@ -94,7 +92,6 @@ $(document).ready(function() {
       var ajd = d.getFullYear() + '-' + (mois<10 ? '0' : '') + mois + '-' + (jour<10 ? '0' : '') + jour;
       if ($(".table-form-annonce").css("display") == "none") { 
         $(".table-form-annonce").fadeIn(500);
-        $("#button-annonce").html("Ajoutez");
         $(".button-annonce-fermer").fadeIn(500);
       }
       else {
@@ -141,7 +138,6 @@ $(document).ready(function() {
     $(".button-annonce-fermer").click(function(){
       $(".table-form-annonce").fadeOut(500);
       $(".button-annonce-fermer").fadeOut(10);
-      $("#button-annonce").html("Ajoutez une annonce");
     });
 
 

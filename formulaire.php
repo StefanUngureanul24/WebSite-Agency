@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>L'Association pour les Etudiants Etrangeres Strasbourg</title>
+    <title>AEES</title>
     <meta charset="UTF-8">
     <meta name="description" content="AEE - annonces pour étudiants étrangers">
     <meta name="author" content="Stefan UNGUREANU">
@@ -20,6 +20,7 @@
     <script type="text/javascript" src="assets/code.js"></script>
     <script type="text/javascript" src="assets/code1.js"></script>
     <script type="text/javascript" src="assets/formulaire.js"></script>
+    <script type="text/javascript" src="assets/langues.js"></script>
 </head>
 
 <body>
@@ -28,38 +29,38 @@
   <button id="button-top" title="Go to top"></button>
   
   <div class="button-area">
-    <button id="inscript">S'inscrire</button>
-    <button id="connex">Connexion</button>
+    <button key="log" class="lang" id="inscript">S'inscrire</button>
+    <button key="conn" class="lang" id="connex">Connexion</button>
   </div>
 
   <div class="wrap wrap-inscription">
     <form class="login-form" action="">
       <div class="form-header">
-        <h3>S'inscrire</h3>
+        <h3 class="lang" key="log">S'inscrire</h3>
       </div>
 
       <div class="form-group">
-        <p>Adresse email</p>
+        <p class="lang" key="mail">Adresse email</p>
         <input id="mail1" type="text" class="form-input mail1" placeholder="example@email.com">
       </div>
 
       <div class="form-group">
-        <p>Numéro de téléphone</p>
+        <p class="lang" key="nrtel">Numéro de téléphone</p>
         <input id="nr-tel" type="tel" class="form-input nr-tel" placeholder="0XXXXXXXXX"> 
       </div>
     
       <div class="form-group">
-        <p>Mot de passe</p>
+        <p class="lang" key="motpasse">Mot de passe</p>
         <input id="mot-pass1" type="password" class="form-input mot-pass1" placeholder="Veuillez saisir un mot de passe....">
       </div>
     
       <div class="form-group">
-        <p>Confirmation du mot de passe</p>
+        <p class="lang" key="confmotpasse">Confirmation du mot de passe</p>
         <input id="mot-pass-conf" type="password" class="form-input mot-pass-conf" placeholder="Veuillez confirmer le mot de passe"> 
       </div>
     
       <div class="form-group">
-        <button id="inscrire" class="form-button" type="button">S'inscrire</button>
+        <button key="log" id="inscrire" class="form-button lang" type="button">S'inscrire</button>
       </div>
     </form>
   </div>
@@ -67,21 +68,21 @@
   <div class="wrap wrap-connexion">
     <form class="login-form" action="">
       <div class="form-header">
-        <h3>Connexion</h3>
+        <h3 class="lang" key="conn">Connexion</h3>
       </div>
       
       <div class="form-group">
-        <p>Adresse email</p>
+        <p class="lang" key="mail">Adresse email</p>
         <input type="text" class="form-input" placeholder="email@example.com">
       </div>
 
       <div class="form-group">
-        <p>Mot de passe</p>
+        <p class="lang" key="motpasse">Mot de passe</p>
         <input type="password" class="form-input" placeholder="Mot de passe...">
       </div>
       
       <div class="form-group">
-        <button id="connexion" class="form-button" type="button">Se connecter</button>
+        <button key="conn" id="connexion" class="form-button lang" type="button">Se connecter</button>
       </div>
     </form>
   </div>

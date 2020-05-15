@@ -1,5 +1,5 @@
 <footer>
-    <h1>Suivez nous sur</h1>
+    <h1 class="lang" key="follow">Suivez nous sur</h1>
     <div id="contact" class="fa-container">
       <a href="#" class="fa fa-facebook"></a>
       <a href="#" class="fa fa-twitter"></a>

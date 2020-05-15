@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>L'Association pour les Etudiants Etrangeres Strasbourg</title>
+    <title>AEES</title>
     <meta charset="UTF-8">
     <meta name="description" content="AEE - annonces pour étudiants étrangers">
     <meta name="author" content="Stefan UNGUREANU">
@@ -79,5 +79,6 @@
       </div>
     </form>
   </div>
+  
 
 </body>

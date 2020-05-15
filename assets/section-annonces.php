@@ -1,13 +1,13 @@
 <div id="annonces">
-    <h1>Annonces</h1>
-    <button id="button-annonce">Ajoutez une annonce</button>
-    <button id="button-annonce" class="button-annonce-fermer">Fermez</button>
+    <h1 key="annonces" class="lang">Annonces</h1>
+    <button key="annonces-add" id="button-annonce" class="lang">Ajoutez une annonce</button>
+    <button key="evenms-close" id="button-annonce" class="button-annonce-fermer lang">Fermez</button>
 
     <table class="table1-annonce table-form-annonce">
       <tr class="nohover">
-        <th>Prénom</th>
-        <th>NOM</th>
-        <th>Annonce</th>
+        <th class="lang" key="annonces-surname">Prénom</th>
+        <th class="lang" key="annonces-name">NOM</th>
+        <th class="lang" key="annonces-sing">Annonce</th>
       </tr>
       
       <tr>
@@ -19,10 +19,10 @@
 
     <table id="table-form1-annonce" class="table1-annonce">
       <tr class="nohover">
-        <th>Prénom</th>
-        <th>NOM</th>
-        <th>Jour</th>
-        <th>Annonce</th>
+        <th class="lang" key="annonces-surname">Prénom</th>
+        <th class="lang" key="annonces-name">NOM</th>
+        <th class="lang" key="annonces-day">Jour</th>
+        <th class="lang" key="annonces-sing">Annonce</th>
       </tr>
       
     </table>

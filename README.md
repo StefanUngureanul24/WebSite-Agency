@@ -2,7 +2,7 @@
 
 ## Structure du projet
 ### La page principale du site qui contient
-* Le **navbar** (*nav.php*) qui contient comme éléments: à gauche le nom de l'association en charge du site et à droite les buttons qui renvoient vers les sections différentes de la page et encore deux services: l'apparition du formulairea pour se connecter sur son compte (*se connecter*) et des liens vers la version en anglais et la version en allemand de la page (*langues*).
+* Le **navbar** (*nav.php*) qui contient comme éléments: à gauche le nom de l'association en charge du site et à droite les buttons qui renvoient vers les sections différentes de la page et encore deux services: l'apparition du formulairea pour se connecter sur son compte (*se connecter*) et le liens qui permet de changer la page en anglais. (*langues*).
 * Un *slider* qui contient trois photos avec des endroits différents de Strasbourg.
 * La section **Événements** où l'utilisateur peut voir les événements déjà ajoutés ou ajouter lui-même un événement.
 * La section **Annonces** où l'utilisateur peut voir les annonces déjà ajoutés ou ajouter lui-même une annonce. 

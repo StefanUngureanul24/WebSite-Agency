@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>L'Association pour les Etudiants Etrangeres Strasbourg</title>
+    <title>AEES</title>
     <meta charset="UTF-8">
     <meta name="description" content="AEE - annonces pour étudiants étrangers">
     <meta name="author" content="Stefan UNGUREANU">
@@ -19,6 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/code.js"></script>
     <script type="text/javascript" src="assets/code1.js"></script>
+    <script type="text/javascript" src="assets/langues.js"></script>
 </head>
 
 <body>
