@@ -1,4 +1,5 @@
 <div id="events">
+  <form action="assets/ajax-reqs.php" method="post">
     <h1 class="lang" key="evenms-title">Événements</h1>
     <button class="lang" key="evenms-add" id="button-event">Ajoutez un événement</button>
     <button key="evenms-close" id="button-event" class="button-fermer lang">Fermez</button>
@@ -19,7 +20,7 @@
         <td><input class="input-form" id="place-ev" type="text" placeholder="Lieu d'événement..."></td> 
       </tr>
     </table>
-
+  </form>
     <table id="table-form1" class="table1">
       <tr class="nohover">
         <th class="lang" key="evenms-name">Nom d'événement</th>
